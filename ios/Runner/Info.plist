@@ -45,5 +45,18 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Wallora needs access to save wallpapers to your photo library. Your photos will not be accessed or modified.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Wallora needs access to save wallpapers to your photo library. Your photos will not be accessed or modified.</string>
+	<key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-6187422410732790~1234567890</string>
+
+	
 </dict>
 </plist>
